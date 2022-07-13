@@ -1,4 +1,4 @@
-# tdApp
+# toDoApp
  todo app
  
 Simple TodoApp with backend in Docker container
