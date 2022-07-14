@@ -74,7 +74,10 @@ function addItemToList(){
     dataType: "json"
     }).done(function(data){
         updateList(data)
+        alert("Todo wurde erstellt")
+        $('#txtTodo').val(' ');
+          
        
        
     })}
-    
+  
