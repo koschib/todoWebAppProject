@@ -75,9 +75,10 @@ function addItemToList(){
     }).done(function(data){
         updateList(data)
         alert("Todo wurde erstellt")
-        $('#txtTodo').val(' ');
-          
-       
+        $('#txtTodo').val('')
+        $("#txtTodo").focus()
+        
+        
        
     })}
   
